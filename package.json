@@ -2,10 +2,7 @@
   "name": "od-core-poc",
   "version": "0.0.0",
   "description": "A utility library",
-  "main": "dist/commonjs/index.js",
-  "module": "dist/es/index.js",
-  "jsnext:main": "dist/es/index.js",
-  "sideEffects": false,
+  "main": "src/index.js",
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "jest": "^22.4.3",
