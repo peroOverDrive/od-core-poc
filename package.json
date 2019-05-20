@@ -2,9 +2,10 @@
   "name": "od-core-poc",
   "version": "0.0.0",
   "description": "A utility library",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "source": "src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "source": "./src/index.ts",
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "jest": "^22.4.3",
