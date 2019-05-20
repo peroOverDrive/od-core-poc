@@ -6,8 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 out.json
 scripts/def.json
-dist
 readme.html
+
+# Anti-publish pattern: 
+# Testing out checking dist into source control, instead of letting it build on publish 
+# Probably not ideal, just trying to get something working for POC
+# dist // <-- This SHOULD be included in ignore, in a perfect world
 
 # Runtime data
 pids
